@@ -1,0 +1,92 @@
+body{
+    background-image: url(./IMG/anh1.png);
+    background-size: cover; /* Giúp ảnh bao phủ toàn bộ trang */
+    background-position: center; /* Căn giữa ảnh nền */
+    background-repeat: no-repeat; /* Không lặp lại ảnh */
+    background-attachment: fixed; 
+    /* Giữ cố định ảnh nền khi cuộn trang */
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.nav-link{
+    color: white;
+    margin-left: 70px;
+}
+.nav-link> i{
+    margin-right: 10px;
+}
+
+.WELCOME{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20vh; /* Đặt chiều cao phù hợp để căn giữa */
+    text-align: center; /* Căn giữa đoạn văn */
+    /* background-color: aqua; */
+    color: white;
+}
+.box{
+    margin-left: 70px;
+}
+.footer{
+  
+    margin-top: 100px;
+}
+.footer >ul>li{
+    margin: 40px;
+    color: black;
+}
+/* .footer ul li a{
+    color: #000000;
+} */
+/* form{
+    width: 60%;
+    margin: auto;
+    padding-top: 40px;
+    padding-left: 40px;
+} */
+.form-login{
+    width: 678px;
+    height: 529px;
+    margin-left: 25%;
+    /* margin-top: 288px;
+    margin-left: 381px; */
+    /* gap: 0px;
+    opacity: 0px; */
+}
+.input-form{
+    height: auto;
+    background-color: #858282;
+}
+.font-color{
+    color: #000000;
+}
+.form-group{
+    padding: 20px;
+}
+.form-login-item{
+    width: 442px;
+    /* height: 75px; */
+    margin-bottom: 40px;
+    margin-left: 10%;
+  
+    
+    /* top: 403px;
+    left: 499px;
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px; */
+
+}
+.bg{
+    background-color: #e5e5e5 ;
+}
+.btn-color{
+    background-color:  #25292b; 
+    border: none;
+    color: #fff;
+}

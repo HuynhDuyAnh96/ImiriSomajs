@@ -1,0 +1,137 @@
+ body{
+    background-image: url(./IMG/bg-logout.png);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+.main{
+    position: relative;
+}
+.nav-link{
+    color: white;
+}
+.nav-link> i{
+    margin-right: 10px;
+}
+.nav-item > img{
+    margin-left: 70px;
+}
+.form-group{
+    width: 678px;
+    height: 846px;
+    position: relative;
+}
+.caption{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25.2px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.caption > span > img{
+    background-color: #fff;
+}
+
+ .REGISTER{
+    width: 401px;
+    height: 175px;
+   margin-left: 80px;
+    text-align: center;
+ }
+ .REGISTER > span> img{
+    width: 60px;
+    background-color: #e5e5e5;
+ }
+ .REGISTER>span{
+    /* margin-left: 10px; */
+   /* padding: 15px; */
+    margin: 10px;
+    border: 10px;
+ }
+ .REGISTER>p{
+    margin-top: 5px;
+ }
+ .cmt{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+ }
+ .Register-detail{
+    width: Fixed (442px)px;
+    height: Hug (372px)px;
+   margin-left: 80px;
+    /* top: 344px;
+    left: 499px;
+    gap: 24px;
+    opacity: 0px; */
+
+ }
+ .Register-btn{
+    width: 442px;
+    height: 372px;
+   margin-left: 80px;
+ }
+ .join{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 30%;
+ }
+ .note{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+ }
+.checkbox{
+    display: block;
+    margin-left: 5%;
+
+}
+.input-form{
+    width: 442px;
+    height: 50px;
+    /* width: Fixed (442px)px;
+    height: Fixed (50px)px; */
+    top: 25px;
+    padding: 0px 20px 0px 20px;
+    gap: 0px;
+    border-radius: 8px;
+    border: 1px 0px 0px 0px;
+    background-color: #858282;
+}
+
+.footer >ul>li{
+    margin: 40px;
+}
+.footer-item{
+    color: #e5e5e5;
+}
+form{
+    width: 60%;
+    margin: auto;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+form> button{
+    background-color: #242e35;
+}
+.bg{
+    background-color: #e5e5e5 ;
+}
+.btn-color{
+    background-color:  #242e35; 
+    border: none;
+    color: #fff;
+}
